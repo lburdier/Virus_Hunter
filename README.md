@@ -1,58 +1,13 @@
-html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virus Hunter - ReadMe</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        #header {
-            background-color: #007BFF;
-            padding: 10px;
-            color: #fff;
-            text-align: center;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        #content {
-            margin-bottom: 20px;
-        }
-        .section {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            color: #007BFF;
-        }
-        #tools-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        #tools-list li {
-            margin-bottom: 10px;
-        }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+
 </head>
 <body>
     <div id="header">
-        <strong>Virus Hunter</strong>
+        <h1>Virus Hunter</h1>
     </div>
     <div id="content">
         <div class="section" id="overview-section">
