@@ -1,38 +1,28 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+**English** · [Français](README.fr.md)
 
-</head>
-<body>
-    <div id="header">
-        <h1>Virus Hunter</h1>
-    </div>
-    <div id="content">
-        <div class="section" id="overview-section">
-            <p>NetWorking Solutions Inc. (NSI) est une Entreprise de Services du Numérique (ESN) spécialisée dans la conception, la mise en œuvre et la maintenance des infrastructures matérielles et logicielles pour ses clients.</p>
-            <p>En réponse à une récente demande de services en cybersécurité, une entreprise a fait appel aux compétences de NSI pour réaliser une analyse de sécurité sur les postes de travail de son personnel. À cet effet, un expert en cybersécurité sera dépêché sur site afin de procéder à une évaluation approfondie des ordinateurs utilisés, englobant tant les ordinateurs de bureau que les ordinateurs portables. Cette évaluation comprendra l'inspection des logiciels installés, avec une attention particulière accordée à la surveillance des processus actifs afin de détecter d'éventuelles vulnérabilités et la présence de logiciels malveillants.</p>
-            <p>Dans le cadre de cette analyse des processus, l'utilisation de deux outils spécifiques est recommandée : <a href="https://learn.microsoft.com/fr-fr/sysinternals/downloads/procmon" target="_blank">Process Monitor</a> et <a href="https://www.thewindowsclub.com/sysinternals-process-explorer-tutorial-how-to-use-it" target="_blank">Sysinternals Process Explorer</a>. Ces logiciels permettront une exploration approfondie des activités en cours sur les machines, offrant ainsi la possibilité d'identifier toute faille de sécurité potentielle et la présence éventuelle de programmes malveillants. Lors des démonstrations pratiques, une explication détaillée du fonctionnement et de l'importance de ces outils sera fournie.</p>
-        </div>
-        <div class="section" id="tools-section">
-            <h2>Outils Utilisés</h2>
-            <ul id="tools-list">
-                <li><a href="https://learn.microsoft.com/fr-fr/sysinternals/downloads/procmon" target="_blank">Process Monitor</a> : Un outil de surveillance système pour Windows.</li>
-                <li><a href="https://learn.microsoft.com/fr-fr/sysinternals/downloads/procmon](https://learn.microsoft.com/fr-fr/sysinternals/downloads/autoruns" target="_blank">Autoruns</a> : Un outil de Sysinternals.</li>
-                <li><a href="https://www.thewindowsclub.com/sysinternals-process-explorer-tutorial-how-to-use-it" target="_blank">Sysinternals Process Explorer</a> : Un gestionnaire de tâches avancé pour Windows.</li>
-                <li><a href="https://git-scm.com/downloads" target="_blank">Git Bash</a> : Une interface en ligne de commande pour Git sur Windows.</li>
-            </ul>
-        </div>
-        <div class="section" id="installation-section">
-            <h2>Installation</h2>
-            <p>Outils portables</p>
-        </div>
-        <div class="section" id="usage-section">
-            <h2>Utilisation</h2>
-            <p>Ce projet peut être utilisé en cas de soupçon de programme malveillant ou de backdoors dans un système.</p>
-        </div>
-    </div>
-</body>
+# Virus Hunter
 
-</html>
+Practical demonstration of **malware tracing on Windows 11**, using Microsoft Sysinternals tools.
+
+## Context
+
+NetWorking Solutions Inc. (NSI) is an IT services company that designs, deploys and maintains hardware and software infrastructure for its clients.
+
+A client asked NSI for a security analysis of its employees' workstations. A cybersecurity expert is sent on site to assess the computers in use, both desktops and laptops. The assessment covers the installed software, with a particular focus on monitoring running processes to detect vulnerabilities and malware.
+
+Two tools are recommended for this process analysis: **Process Monitor** and **Process Explorer**. They give a detailed view of what is happening on each machine, making it possible to spot security flaws and malicious programs. The demonstrations explain how each tool works and why it matters.
+
+## Tools
+
+- [Process Monitor](https://learn.microsoft.com/sysinternals/downloads/procmon): real-time monitoring of files, registry and processes.
+- [Autoruns](https://learn.microsoft.com/sysinternals/downloads/autoruns): lists every program that starts automatically.
+- [Process Explorer](https://learn.microsoft.com/sysinternals/downloads/process-explorer): an advanced task manager.
+- [Git Bash](https://git-scm.com/downloads): a Git command line for Windows.
+
+## Installation
+
+All tools are portable: download them and run them, no installation needed.
+
+## Usage
+
+Use this project when you suspect malware or a backdoor on a system.
